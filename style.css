@@ -1,0 +1,60 @@
+#game {
+	border: 1px black;
+	background-color: lightgrey;
+	height: 210px;
+	width: 500px;
+}
+
+#start, #resetScore {
+
+	background-color: #4CAF50;
+  	border: none;
+  	color: white;
+  	padding: 15px 32px;
+ 	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin: 4px 2px;
+	cursor: pointer;
+	display: inline;
+
+}
+
+#player {
+	width: 20px;
+	height: 50px;
+	position: relative;
+	top: 150px;
+	animation: none;
+}
+
+@keyframes jump {
+	0% {
+		top: 150px;
+	}
+	50% {
+		top: 75px;
+	}
+	100% {
+		top: 150px;
+	}
+}
+
+#obstacle {
+	width: 25px;
+	height: 50px;
+	position: relative;
+	top: 125px;
+	left: 475px;
+	animation: none;
+}
+
+@keyframes block {
+	0% {
+		left: 475px;
+	}
+	100% {
+		left: -25px;
+	}
+}

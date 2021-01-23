@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html onclick="jump();">
+<head>
+<title>Jumping game</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h2 id="demo"></h2>
+<div id="game">
+<b><p id="highScore" style="position: absolute;">Highscore: 0</p><p id="score" style="position: absolute; left: 400px">Score: 0</p></b>
+
+<img src="danny.png" id="player" style="animation:none;" />
+<img src="bernie.png" id="obstacle"/>
+</div>
+<button onclick="start()" id="start">Start</button>
+<button onclick="deleteData()" id="resetScore">Reset highscore</button>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
