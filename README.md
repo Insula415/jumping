@@ -1,6 +1,4 @@
-# jumping
-Jumping game
+# Jumping game
 
-<video width="320" height="240" controls>
-  <source src="video.mp4" type="video/mp4">
-</video>
+Made a simple jumping game with HTML, CSS, JavaScript.
+I made the characters Danny Devito and Bernie Sanders but feel free to add your own characters.
